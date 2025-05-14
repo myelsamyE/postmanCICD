@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "09871c0b-bb4f-44ff-942d-4294da41ac61",
+		"name": "apiTests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10370717",
+		"_collection_link": "https://grey-moon-58723.postman.co/workspace/workspace1~893060ef-9b1d-4901-a72c-e5551f3df507/collection/10370717-09871c0b-bb4f-44ff-942d-4294da41ac61?action=share&source=collection_link&creator=10370717"
+	},
+	"item": [
+		{
+			"name": "getPosts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
